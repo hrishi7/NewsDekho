@@ -1,0 +1,32 @@
+{
+  "name": "newsdekho",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrishi7/NewsDekho.git"
+  },
+  "author": "Hrishikesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrishi7/NewsDekho/issues"
+  },
+  "homepage": "https://github.com/hrishi7/NewsDekho#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "hbs": "^4.0.1",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
